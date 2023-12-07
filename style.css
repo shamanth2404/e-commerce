@@ -1,0 +1,43 @@
+.list img{
+    width: 100px;
+    height: auto;
+}
+
+.card-body{
+    font-size: 13px;
+}
+
+
+.form-control{
+    outline: none;
+}
+
+.item-list-1::-webkit-scrollbar{
+    display: none;    
+}
+
+.more{
+    height: 210px;
+}
+
+.more::-webkit-scrollbar{
+   display: none;
+}
+
+.pg3-card{
+    padding: 0;
+}
+
+.side-nav-bar nav{
+    width: 240px;
+    
+}
+
+.mycart{
+    font-size: 14px;
+}
+
+.page2 img{
+    width: 100px;
+}
+
