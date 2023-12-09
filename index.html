@@ -18,30 +18,45 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    
   </head>
   <body>
     <nav
       class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-black-subtle"
     >
-      <div class="container-fluid">
-        <img src="blink-it-logo.png">
-        <div class="container location">
-          <div class="delivery-minutes">Deliver in 16 minutes</div>
-          <div class="dropdown">
-            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Gayathrinagar, Bengaluru , Karnataka
-            </a>
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+        <div class="nav-img">
           
-            <ul class="dropdown-menu w-50">
+        </div>
+        <div class="location">
+          <div class="delivery-minutes">Delivery in 16 minutes</div>
+          <div class="dropdown">
+            <a
+              class="dropdown-toggle location2"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Gayathrinagar, Bengaluru
+            </a>
+
+            <ul class="dropdown-menu">
               <h6>Change Location</h6>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn btn-success btn-sm">Detect Location</div>
-                <input type="text" placeholder="Search Location">
+                <input type="text" placeholder="Search Location" />
               </div>
             </ul>
           </div>
         </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search 'Curd'">
+          </div>
+          <div class="login">Login</div>
+          <button class="btn btn-success mycart"><i class="fa-solid fa-cart-shopping"></i>My Cart</button>
+       
       </div>
     </nav>
 
